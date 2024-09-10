@@ -24,7 +24,7 @@ namespace BarcodeGenerator
             InitializeComponent();
 
             // set up interal variables
-            groupsNumStations = new int[NUM_GROUPS];
+            groupsNumStations = new int[NUM_GROUPS + 1];
             groupNames = new string[NUM_GROUPS];
             this.groupsNumStationsRet = groupsNumStationsRet;
             this.groupNamesRet = groupNamesRet;
